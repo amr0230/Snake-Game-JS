@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2d012c;
+}
+
+body h1 {
+  font-size: 40px;
+  color: white;
+  z-index: 1;
+  border: 5px solid black;
+  border-radius: 25px;
+  width: 400px;
+  text-align: center;
+  background-color: #13400b;
+}
+
+body .game-container {
+  -webkit-box-shadow: 20px 10px 1500px white;
+          box-shadow: 20px 10px 1500px white;
+}
+
+body .btn {
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 17%;
+}
+
+body .btn:hover {
+  background-color: gray;
+  color: white;
+}
+
+body .btn .fa-arrows-rotate {
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
